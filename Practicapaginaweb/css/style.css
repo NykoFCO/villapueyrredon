@@ -18,3 +18,41 @@ div h2, div h3{
     font-size: 24px
 }
 /*Son todos comentarios*/
+
+/* 
+.color{
+    color: #f00;
+}
+el 1ero es rojo, el 2do es verde y el 3ro es el azul
+.color{
+    color: #000000;
+}
+los 2 1erosa son rojos, los 2dos verdes y los 3ros azul
+.color{
+    color: rgb(0, 0, 255);
+}
+*/
+.color{
+/* border: 5px black solid; */
+/*
+dotted
+dashed
+solid
+double
+groove
+ridge
+inset
+outset
+none
+hidden
+*/
+border-style: solid;
+border-color: blue;
+border-radius: 5px;
+border-width: 10px;
+
+}
+
+
+
+
