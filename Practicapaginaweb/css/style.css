@@ -60,15 +60,41 @@ rem (relativo a la fuente de raiz, o sea la etiqueta html)
 #fondo{
     background-color: rgba(255,0,0);
     /* opacity: 0.3; */
-    background-image: url('Clima\ Pinamar.jpg');
-    height: 200px;
-    /*
+    height: 300px;       
+    background: #f00 url(Clima\ Pinamar.jpg) repeat-y center bottom / 100px 100px;
+    
+        /*
     background-color: rgba(0, 0, 0, 0.3);
     el ultimo numero de rgba es para darle al intensidad o transparencia 
     los colores los puedo poner con palabras, rgb, sexagasimal
     */
 }
 
+
+.margen {
+    background-color: chocolate;
+    margin: 15px;
+    /* en margin si pongo un solo numero, es equivalente a los 4 lados*/
+    padding: 30px 25px 20px 15px;
+    /* en padding esigual. si pongo uno dos o tres valores va ir cambiando disposicion*/
+    border: solid 1px greenyellow;
+    height: 100px;
+    width: 50px;
+    overflow: scroll;
+    /*hidden tapa lo que sobra
+    scroll agrega barras para moverse
+     */
+     outline: 1px solid red;
+     /* borde fuera del borde antes del margen*/
+}
+
+.text {
+    font-family: 'Aboreto' , sans-serif;
+    /*google fonts, para descargar letras*/
+    text-align: justify;
+    text-decoration: underline;
+    text-shadow: 3px 5px 5px blueviolet;
+}
 
 
 
