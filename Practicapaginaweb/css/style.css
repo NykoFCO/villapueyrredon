@@ -95,6 +95,53 @@ rem (relativo a la fuente de raiz, o sea la etiqueta html)
     text-decoration: underline;
     text-shadow: 3px 5px 5px blueviolet;
 }
+a:link {
+    color:darkblue;
+}
+a:visited {
+    color:burlywood
+}
+a:hover {
+    color:coral
+}
+a:active {
+    color:deeppink
+}
+ul{
+   background-color: cyan; 
+   list-style-type: lower-greek;
+   padding-left: 20px;
+    /* list-style-position: inside; */
+}
 
-
-
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td{
+    border: solid 1px #eee;
+    padding: 5px;
+}
+th{
+    background-color: coral;
+    color: white;
+    text-align: left;
+}
+tr:nth-child(even){
+    background-color: #eee;
+}
+tr:hover {
+    background-color: #aaa;
+    cursor: pointer;
+} 
+span{
+    display: block;
+    /* display: none; */
+    /* visibility: hidden; */
+    /* width: 300px; */
+    max-width: 300px;
+ background-color: darkorange;
+}
+.inline {
+    display: inline;
+}
