@@ -61,6 +61,7 @@ rem (relativo a la fuente de raiz, o sea la etiqueta html)
     background-color: rgba(255,0,0);
     /* opacity: 0.3; */
     background-image: url('Clima\ Pinamar.jpg');
+    height: 200px;
     /*
     background-color: rgba(0, 0, 0, 0.3);
     el ultimo numero de rgba es para darle al intensidad o transparencia 
