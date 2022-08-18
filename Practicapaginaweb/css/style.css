@@ -169,3 +169,17 @@ span{
     padding: 10px 0;
     width: 33.3%;
 }
+.inline-block {
+    display: inline-block;
+    height: 55px;
+    background-color: chartreuse;
+
+}
+.center {
+    padding: 50px 0;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    background-color: aqua;
+
+}
