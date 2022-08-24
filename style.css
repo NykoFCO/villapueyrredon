@@ -1,64 +1,89 @@
-html {
-    font-family: 'Montserrat', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    background-color: #efefef;
+    font-family: 'Montserrat', sans-serif;
 }
 
-header {
-    background-color: #364552;
-    color: white;
-    padding: 0.5rem;
-    
+.wrapper {
+   width: 100vw;
+   height: 100vh;
+   background-color: #2a315b; 
+   color: #ffff;
 }
 
-header h1 {
-    font-size: 1rem;
-    text-align: left;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
 }
 
-.conteiner {
-    width: 400px;
-    margin: 0 auto;
+.brand {
+    margin-top: -7px;
 }
 
-section article {
-    transition: box-shadow 0.3s ease;
-    background-color: #fff;
-    margin: 1rem 0;
-    border-radius: 0.5rem;
-    padding: 0.25rem 0;
-    cursor: pointer;
-}
-section article:hover {
-    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3)
+.brand span {
+    color: black;
 }
 
-section article h2, section article p {
-    margin: 1rem;
+.menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+.menu li {
+    list-style: none;
 }
 
-footer {
-    background-color: #222;
-    padding: 3rem;
-    color: #fff
-}
-footer section {
-    float: right;
-}
-
-footer p {
-    margin: 0;
-}
-
-footer a {
-    transition: color 0.3s easy;
-    color: white;
+.menu a {
+    color: #ffff;
     text-decoration: none;
+    padding: 10px 20px;
 }
 
-footer a:hover {
-    color: cornflowerblue;
+.menu .activo {
+    color: black;
+}
+
+.menu a:hover {
+    background-color: aqua;
+    color: #2a315b;
+    transition: ease-in 0.5s;
+}
+
+.main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;    
+}
+
+h1 {
+    font-size: 3em;
+}
+
+span {
+    color: black;
+}
+
+.download-cv {
+    padding: 10px 20px;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgba(122, 215, 193, 0.69);
+}
+
+.download-cv:hover {
+    background-color: #ffff;
+    box-shadow: none;
 }

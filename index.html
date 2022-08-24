@@ -1,50 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-        <title>Document</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> 
-        
-        <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head id="titulo">
 <body>
-    <header>
-            <h1 id="titulo">Nicolás Sánchez</h1>
-    </header>        
-    <div>
-        <img src="img/Fotofondo.jpg" />
+    <div class="wrapper">
+        <header>
+            <nav class="navbar">
+                <div class="brand">
+                <h2>N<span>S</span></h2>
+                </div>
+                <ul class="menu">
+                    <li><a class="activo" href="#">Home</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <div class="info">
+                <h1>Yo soy <span>Nicolás</span> Sánchez</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel nisi atque autem quae nihil veritatis, dolore soluta fugiat asperiores. Ipsam aliquam excepturi animi rerum iusto quaerat nostrum adipisci unde quia.</p>
+                <a download href="#">
+                    <button class="download-cv" download="">Download CV</button>
+                </a>
+            </div>
+            <img src="img/NicoFutbol.png" width="500px">
+        </main>
     </div>
-        <section class="conteiner">
-        <article class="post">
-            <h2>Título de mi Post</h2>
-            <p>Descripción de mi Post</p>
-            <img src="img/Mural.jpeg" width="400" />
-            <p>Texto del artículo que quiero publicar que es de prueba para el blog. El chueco</p>
-        </article>
-        </section>
-        <section class="conteiner">
-        <article class="post">
-            <h2>Título de mi Post 2</h2>
-            <p>Descripción de mi Post 2</p>
-            <img src="img/Mural 2.jpeg" width="400" />
-            <p>Texto del artículo que quiero publicar que es de prueba para el blog. El chueco</p>
-        </article>
-        </section>
-        <section class="conteiner">
-        <article class="post">
-            <h2>Título de mi Post 3</h2>
-            <p>Descripción de mi Post 3</p>
-            <img src="img/Mural 3.jpeg" width="400" />
-            <p>Texto del artículo que quiero publicar que es de prueba para el blog. El chueco</p>
-        </article>
-        </section>
-    <footer>
-        <section>
-            <a href="#titulo">Ir Arriba</a>
-            <a href="mailto:nykoprofe@gmail.com">Contacto</a>
-        </section>
-        <p>Copyright 2022</p>
-    </footer>
+
+    
+    
 </body>
 </html>
