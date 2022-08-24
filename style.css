@@ -87,3 +87,8 @@ span {
     background-color: #ffff;
     box-shadow: none;
 }
+
+.main img{
+    width: 500px;
+    height: 520px;
+}
